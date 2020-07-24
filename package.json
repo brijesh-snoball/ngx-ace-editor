@@ -1,40 +1,39 @@
 {
-  "name": "ngx-ace-editor-wrapper",
-  "version": "9.0.1",
-  "description": "A fork from ng2-ace-editor updated to work with Angular 9",
-  "homepage": "https://github.com/martinpagesaal/ngx-ace-editor-wrapper",
+  "name": "ngx-ace-editor",
+  "version": "10.0.1",
+  "description": "A fork from ng2-ace-editor updated to work with Angular 1£0",
+  "homepage": "https://github.com/bvolders/ngx-ace-editor",
   "license": "MIT",
   "js:next": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "transpile": "ngc",
-    "clean": "npm run clean:typescript && rimraf node_modules && npm cache clean",
-    "clean:typescript": "rimraf dist",
+    "clean": "npm run clean:typescript && npm cache verify",
+    "clean:typescript": "rm -r -f dist",
     "rollup": "rollup -c rollup.config.js",
     "minify": "uglifyjs dist/bundles/ngx-ace-editor-wrapper.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ngx-ace-editor-wrapper.umd.min.js",
     "build": "npm run clean:typescript && npm run transpile && npm run rollup"
   },
   "devDependencies": {
-    "@angular/cli": "^9.0.2",
-    "@angular/common": "^9.0.1",
-    "@angular/compiler": "^9.0.1",
-    "@angular/compiler-cli": "^9.0.1",
-    "@angular/core": "^9.0.1",
-    "@angular/forms": "^9.0.1",
-    "@angular/platform-browser": "^9.0.1",
+    "@angular/cli": "~10.0.4",
+    "@angular/common": "~10.0.5",
+    "@angular/compiler": "~10.0.5",
+    "@angular/compiler-cli": "~10.0.4",
+    "@angular/core": "~10.0.5",
+    "@angular/forms": "~10.0.5",
+    "@angular/platform-browser": "~10.0.5",
     "codelyzer": "^5.2.1",
-    "rimraf": "^3.0.2",
     "rollup": "^1.31.0",
     "rollup-plugin-angular": "^0.5.3",
     "rollup-plugin-typescript2": "^0.26.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-commonjs": "7.0.2",
     "rollup-plugin-node-resolve": "2.0.0",
-    "rxjs": "^6.5.4",
-    "typescript": "^3.2.2",
+    "rxjs": "~6.5.5",
+    "typescript": "~3.9.5",
     "uglify-js": "^3.7.7",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.3"
   },
   "files": [
     "dist/"
@@ -48,15 +47,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinpagesaal/ngx-ace-editor-wrapper.git"
+    "url": "git+https://github.com/bvolders/ngx-ace-editor.git"
   },
   "keywords": [
     "ace",
     "angular",
-    "A9"
+    "A10"
   ],
-  "author": "Martin Page",
+  "author": "Bert Volders",
   "bugs": {
-    "url": "https://github.com/martinpagesaal/ngx-ace-editor-wrapper/issues"
+    "url": "https://github.com/bvolders/ngx-ace-editor/issues"
   }
 }

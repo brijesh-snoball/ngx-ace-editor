@@ -1,8 +1,7 @@
 # ngx-ace-editor-wrapper
 
 [![npm version](https://badge.fury.io/js/ngx-ace-editor-wrapper.svg)](https://www.npmjs.com/package/ngx-ace-editor-wrapper) 
-Ace editor integration with typescript for angular 5.  
-**To use Angular 4 install version 0.3.1 (npm i -S ngx-ace-editor-wrapper@0.3.1).**
+Ace editor integration with typescript for angular 10.  
 
 # Install
 `npm i -S ngx-ace-editor-wrapper`
@@ -112,7 +111,3 @@ export class AceCmp {
     }
 }
 ```
-
-
-# Power by
-[Use Code](http://www.use-code.com)
