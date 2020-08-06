@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AceEditorModule } from 'ngx-ace-editor-wrapper';
+import { AceEditorModule } from 'ngx-ace-editor';
 
 import { AppComponent } from './app.component';
 
