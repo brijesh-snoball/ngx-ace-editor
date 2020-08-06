@@ -1,15 +1,11 @@
-# ngx-ace-editor-wrapper
-
-[![npm version](https://badge.fury.io/js/ngx-ace-editor-wrapper.svg)](https://www.npmjs.com/package/ngx-ace-editor-wrapper) 
+# ngx-ace-editor
+ 
 Ace editor integration with typescript for angular 10.  
-
-# Install
-`npm i -S ngx-ace-editor-wrapper`
 
 ##### Load the module for your app:
 
 ```javascript
-import { AceEditorModule } from 'ngx-ace-editor-wrapper';
+import { AceEditorModule } from 'ngx-ace-editor';
 
 @NgModule({
   ...
@@ -25,7 +21,7 @@ import { AceEditorModule } from 'ngx-ace-editor-wrapper';
 > Minimal
 
 ```js
-//import { AceEditorModule } from 'ngx-ace-editor-wrapper';
+//import { AceEditorModule } from 'ngx-ace-editor';
 
 import { Component } from '@angular/core';
 
