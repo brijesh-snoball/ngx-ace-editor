@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('brace'), require('brace/theme/monokai'), require('@angular/forms')) :
     typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'brace', 'brace/theme/monokai', '@angular/forms'], factory) :
-    (global = global || self, factory(global['ngx-ace-editor-wrapper'] = {}, global.ng.core, null, null, global.ng.forms));
+    (global = global || self, factory(global['ngx-ace-editor'] = {}, global.ng.core, null, null, global.ng.forms));
 }(this, (function (exports, i0, brace, monokai, forms) { 'use strict';
 
     class AceEditorDirective {
@@ -291,4 +291,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=ngx-ace-editor-wrapper.umd.js.map
+//# sourceMappingURL=ngx-ace-editor.umd.js.map
